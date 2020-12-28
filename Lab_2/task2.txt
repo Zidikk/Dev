@@ -1,0 +1,2 @@
+      1 /sbin/init splash
+    787 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant

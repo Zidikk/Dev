@@ -1,0 +1,11 @@
+count: 9
+
+1208:/usr/lib/gdm3/gdm-x-session
+1210:/usr/lib/xorg/Xorg
+1388:/usr/libexec/gnome-session-binary
+5993:bash
+6285:bash
+6286:bash
+6287:ps
+6288:tail
+6289:awk

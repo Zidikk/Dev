@@ -1,0 +1,3 @@
+1161 /usr/lib/xorg/Xorg 42205184
+1315 /usr/libexec/gnome-session-binary 10190848
+7481 bash 0

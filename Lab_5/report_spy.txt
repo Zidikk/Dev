@@ -1,0 +1,64 @@
+Starting spy with delay 10s
+MiB Mem :   3908.5 total,   3524.4 free,    288.0 used,     96.0 buff/cache
+MiB Swap:   3921.0 total,   3865.9 free,     55.1 used.   3451.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   9515 quarter   20   0    9804   6332   3192 R  13.3   0.2   0:00.05 newmem.bash
+   9525 quarter   20   0   10068   6320   3180 R  13.3   0.2   0:00.05 newmem.bash
+   9512 quarter   20   0   10596   6692   3008 R   6.7   0.2   0:00.05 newmem.bash
+   9514 quarter   20   0   10068   6180   3024 R   6.7   0.2   0:00.04 newmem.bash
+   9516 quarter   20   0    9936   6104   2944 R   6.7   0.2   0:00.05 newmem.bash
+--------------------------------------------------------------------
+MiB Mem :   3908.5 total,   2147.8 free,   1664.5 used,     96.2 buff/cache
+MiB Swap:   3921.0 total,   3865.9 free,     55.1 used.   2074.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   9514 quarter   20   0   61020  57132   3024 R   9.1   1.4   0:00.82 newmem.bash
+   9536 quarter   20   0   51516  47656   3060 R   9.1   1.2   0:00.69 newmem.bash
+   9512 quarter   20   0   51780  47876   3008 R   4.5   1.2   0:00.69 newmem.bash
+   9515 quarter   20   0   50592  46988   3192 R   4.5   1.2   0:00.69 newmem.bash
+   9516 quarter   20   0   59304  55472   2944 R   4.5   1.4   0:00.82 newmem.bash
+--------------------------------------------------------------------
+MiB Mem :   3908.5 total,    789.6 free,   3022.6 used,     96.3 buff/cache
+MiB Swap:   3921.0 total,   3865.9 free,     55.1 used.    716.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   9518 quarter   20   0  108276 104684   3056 R  10.5   2.6   0:01.59 newmem.bash
+   9529 quarter   20   0  109728 106044   3100 R  10.5   2.6   0:01.60 newmem.bash
+   9533 quarter   20   0  108276 104456   3100 R  10.5   2.6   0:01.59 newmem.bash
+   9535 quarter   20   0  110388 106476   2996 R  10.5   2.7   0:01.60 newmem.bash
+   9536 quarter   20   0   93096  89368   3060 R  10.5   2.2   0:01.34 newmem.bash
+--------------------------------------------------------------------
+MiB Mem :   3908.5 total,    116.4 free,   3737.7 used,     54.4 buff/cache
+MiB Swap:   3921.0 total,   3193.1 free,    727.9 used.     22.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     90 root      20   0       0      0      0 S  22.2   0.0   1:52.45 kswapd0
+   9512 quarter   20   0  140748 115412   2044 R   5.6   2.9   0:02.04 newmem.bash
+   9513 quarter   20   0  137316 112336   2112 R   5.6   2.8   0:01.98 newmem.bash
+   9517 quarter   20   0  154740 125792   2024 R   5.6   3.1   0:02.27 newmem.bash
+   9518 quarter   20   0  153024 123524   1980 R   5.6   3.1   0:02.27 newmem.bash
+--------------------------------------------------------------------
+MiB Mem :   3908.5 total,    111.7 free,   3741.7 used,     55.1 buff/cache
+MiB Swap:   3921.0 total,   1856.4 free,   2064.5 used.     17.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     90 root      20   0       0      0      0 S  14.3   0.0   1:54.87 kswapd0
+   9514 quarter   20   0  196848 118556   1980 R   9.5   3.0   0:02.89 newmem.bash
+   9524 quarter   20   0  184704 118464   2032 R   9.5   3.0   0:02.69 newmem.bash
+   9531 quarter   20   0  181008 115240   2004 R   9.5   2.9   0:02.65 newmem.bash
+   9539 quarter   20   0  182328 116636   2040 R   9.5   2.9   0:02.66 newmem.bash
+--------------------------------------------------------------------
+MiB Mem :   3908.5 total,    105.2 free,   3748.8 used,     54.5 buff/cache
+MiB Swap:   3921.0 total,    548.7 free,   3372.3 used.     11.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     90 root      20   0       0      0      0 S  20.0   0.0   1:57.43 kswapd0
+   9514 quarter   20   0  241332 118312   1980 R  13.3   3.0   0:03.53 newmem.bash
+   9529 quarter   20   0  241860 118608   2120 R  13.3   3.0   0:03.54 newmem.bash
+   9531 quarter   20   0  223380 116908   2004 R  13.3   2.9   0:03.28 newmem.bash
+   9533 quarter   20   0  240012 117588   2064 R  13.3   2.9   0:03.54 newmem.bash
+--------------------------------------------------------------------
+Finished, kill report:
+[ 9803.288903] Out of memory: Killed process 9393 (newmem.bash) total-vm:260076kB, anon-rss:119732kB, file-rss:1380kB, shmem-rss:0kB, UID:1000 pgtables:548kB oom_score_adj:0
+[ 9803.295084] oom_reaper: reaped process 9393 (newmem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB

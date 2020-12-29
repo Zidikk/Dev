@@ -1,5 +1,5 @@
 sc query type= service  > services.txt
 net stop DNS-client
-sc query type= service > servicesafter.txt
-net start DNS-clien
-fc services.txt servicesafter.txt /N > servicesdiffer.txt
+sc query type= service > service_1.txt
+net start DNS-client
+fc services.txt services_1.txt /N > changes.txt
